@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./assets/pexels-ekaterina-bolovtsova-6077326.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    background-color: #2B2922;
+    color: #ffffff;
+}
+.bottom-logo{
+    width: 100vw;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px 80px 50px;
+    font-family: "Red Rose";
+}
+.list{
+    display: flex;
+    list-style: none;
+    margin-left: 300px;
+}
+.logo{
+    width: 8vw;
+}
+.list-item{
+    padding: 0 20px;
+    align-items: end;
+    font-weight: lighter;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.list-item:hover{
+    font-weight: 600;
+}
+.button-small{
+    columns: #8A7C32;
+    padding: 12px 35px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: transparent;
+    border: 2px solid  #8A7C32;
+    color: #8A7C32;
+    font-family: "Red ose";
+    font-weight: 600;
+    margin-right: 80px;
+}
+.button-small:hover{
+    background-color: #8A7C32;
+    color: #ffffff;
+}
+button, .list-item, .logo{
+    cursor: pointer;
+}
+.hero-heading{
+    font-size: 4.7rem;
+    font-family: "Dela Gothic";
+    width: 40vw;
+    padding-bottom: 80px;
+    margin-left: 50px;
+}
+.hero-body{
+    position: absolute;
+    width: 35vw;
+    right: 10rem;
+    top: 12rem;
+    font-family: "Red Rose";
+    columns: #f1f1f1;
+    font-weight: 200;
+    font-size: 20px;
+}
